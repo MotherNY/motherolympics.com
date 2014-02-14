@@ -1,0 +1,24 @@
+CACHE MANIFEST
+v 1.1 / adsf
+
+CACHE:
+css/main.css
+css/normalize.css
+index.html
+nations.html
+js/helper.js
+js/main.js
+js/vendor/jquery.min.js
+js/vendor/modernizr-2.6.2.min.js
+js/vendor/require.js
+
+# catch-all for anything else
+NETWORK:
+*
+http://*
+https://*
+
+# FALLBACK:
+# / /index.html
+# images/large/ images/offline.jpg
+# *.html /offline.html
