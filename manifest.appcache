@@ -1,7 +1,8 @@
 CACHE MANIFEST
-v 1.1 / adsfadsdsds
+v 1.1 / dw
 
 CACHE:
+css/bootstrap.min.css
 css/main.css
 css/normalize.css
 index.html

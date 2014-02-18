@@ -364,6 +364,29 @@ td{
   padding: 2% 4%;
 }
 
+.inline-icon{
+  display: inline-block;
+  padding: 0 2%;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.row{
+  margin-bottom: 30px;
+}
+
+.team{
+margin: 0 auto;
+padding: 0 2%;
+}
+
+.team-member{
+list-style-position: inside;
+list-style-type: square;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 18px;
