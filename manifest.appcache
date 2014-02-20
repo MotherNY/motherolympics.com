@@ -1,30 +1,30 @@
 CACHE MANIFEST
-v 1.1 / dwadsf
+# Version: 0.1.3
+# Built: 2014-02-20
 
 CACHE:
-css/bootstrap.min.css
-css/main.css
-css/normalize.css
 events.html
+event-1.html
+event-2.html
+event-3.html
+event-4.html
+event-5.html
+event-6.html
+event-7.html
+event-8.html
 icc.html
 index.html
 fucked.html
 nations.html
 olympic-village.html
 timetable.html
+css/bootstrap.min.css
+css/main.css
+css/normalize.css
 js/helper.js
 js/main.js
 js/vendor/jquery.min.js
 js/vendor/modernizr-2.6.2.min.js
-js/vendor/require.js
 
-# catch-all for anything else
 NETWORK:
 *
-http://*
-https://*
-
-# FALLBACK:
-/ /fucked.html
-# images/large/ images/offline.jpg
-# *.html /offline.html
