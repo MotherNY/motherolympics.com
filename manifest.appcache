@@ -5,7 +5,13 @@ CACHE:
 css/bootstrap.min.css
 css/main.css
 css/normalize.css
+events.html
+icc.html
 index.html
+fucked.html
+nations.html
+olympic-village.html
+timetable.html
 js/helper.js
 js/main.js
 js/vendor/jquery.min.js
@@ -19,6 +25,6 @@ http://*
 https://*
 
 # FALLBACK:
-# / /index.html
+/ /fucked.html
 # images/large/ images/offline.jpg
 # *.html /offline.html
