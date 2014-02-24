@@ -379,6 +379,34 @@ footer p {
   font-size: 1.2em;
   padding: 3% 0;
 }
+.nations-block {
+  background: #35499d;
+  text-align: center;
+  padding: 4% 0;
+}
+.nations-block > a {
+  padding: 4% 2%;
+  display: inline-block;
+}
+.nation-copy {
+  clear: left;
+  padding: 6% 5%;
+}
+.nation-tmpl h2 {
+  font-size: 1.4em;
+  padding: 3% 0;
+}
+.nation-copy p {
+  font-size: 1.2em;
+  padding: 3% 0;
+}
+.nation-tmpl {
+  text-align: left;
+}
+.nation-tmpl > img {
+  float: left;
+  padding: 0 5%;
+}
 .nav {
   padding-left: 26%;
   padding-top: 4%;

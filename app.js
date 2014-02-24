@@ -6,6 +6,7 @@
 var express = require('express')
   , routes = require('./routes')
   , events = require('./routes/events')
+  , nations = require('./routes/nations')
   , http = require('http')
   , path = require('path')
   , pack = require(path.resolve(__dirname, './package.json'))
@@ -39,6 +40,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+
 app.get('/events', events.index);
 app.get('/events/catch-the-flame', events['catch-the-flame']);
 app.get('/events/coaster', events['coaster']);
@@ -49,6 +51,24 @@ app.get('/events/puzzle', events['puzzle']);
 app.get('/events/save-nation', events['save-nation']);
 app.get('/events/snowball', events['snowball']);
 app.get('/events/tubing', events['tubing']);
+
+app.get('/nations', nations.index);
+
+app.get('/nations/bangladesh', nations['bangladesh']);
+app.get('/nations/bolivia', nations['bolivia']);
+app.get('/nations/botswana', nations['botswana']);
+app.get('/nations/cambodia', nations['cambodia']);
+app.get('/nations/chad', nations['chad']);
+app.get('/nations/kuwait', nations['kuwait']);
+app.get('/nations/kyrgyzstan', nations['kyrgyzstan']);
+app.get('/nations/seychelles', nations['seychelles']);
+app.get('/nations/senegal', nations['senegal']);
+app.get('/nations/st-lucia', nations['st-lucia']);
+app.get('/nations/vatican-city', nations['vatican-city']);
+app.get('/nations/zambia', nations['zambia']);
+
+
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

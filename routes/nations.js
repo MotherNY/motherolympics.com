@@ -31,8 +31,8 @@ exports['kuwait'] = function(req, res){
   res.render('kuwait', { title: 'Mother Olympics' });
 };
 
-exports['kyrgyzstsn'] = function(req, res){
-  res.render('kyrgyzstsn', { title: 'Mother Olympics' });
+exports['kyrgyzstan'] = function(req, res){
+  res.render('kyrgyzstan', { title: 'Mother Olympics' });
 };
 
 exports['seychelles'] = function(req, res){
