@@ -46,6 +46,9 @@ app.get('/events/drinks', events['drinks']);
 app.get('/events/ice-dance', events['ice-dance']);
 app.get('/events/ice-dance', events['ice-dance']);
 app.get('/events/puzzle', events['puzzle']);
+app.get('/events/save-nation', events['save-nation']);
+app.get('/events/snowball', events['snowball']);
+app.get('/events/tubing', events['tubing']);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
