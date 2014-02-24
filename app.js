@@ -40,6 +40,12 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/events', events.index);
+app.get('/events/catch-the-flame', events['catch-the-flame']);
+app.get('/events/coaster', events['coaster']);
+app.get('/events/drinks', events['drinks']);
+app.get('/events/ice-dance', events['ice-dance']);
+app.get('/events/ice-dance', events['ice-dance']);
+app.get('/events/puzzle', events['puzzle']);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

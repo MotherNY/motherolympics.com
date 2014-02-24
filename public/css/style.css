@@ -312,7 +312,7 @@ footer p {
 #logo {
   text-align: left;
   padding-left: 25%;
-  background: transparent url("/img/logo-66x66.png") scroll 30px 0 no-repeat;
+  background: transparent url("/img/logo-66x66.png") scroll 10px 0 no-repeat;
   margin: 0 auto;
   font-size: 3.4em;
   min-height: 66px;
@@ -357,11 +357,27 @@ footer p {
 .events-block {
   background: #35499d;
   text-align: center;
-  padding: 3% 0;
+  padding: 4% 0;
 }
 .events-block > a {
   padding: 4% 5%;
   display: inline-block;
+}
+.event-tmpl {
+  text-align: left;
+}
+.event-tmpl > img {
+  float: left;
+  padding: 0 5%;
+}
+.event-copy {
+  clear: left;
+  margin-top: 4%;
+  padding: 0 5%;
+}
+.event-copy p {
+  font-size: 1.2em;
+  padding: 3% 0;
 }
 .nav {
   padding-left: 26%;
@@ -381,6 +397,9 @@ footer p {
 }
 .purple {
   color: #35499d;
+}
+.white {
+  color: #fff;
 }
 .red {
   color: #fc0404;
@@ -491,13 +510,6 @@ footer p {
     -ms-transform: translate(267%, -100%);
     transform: translate(267%, -100%);
   }
-  .blue {
-    -webkit-transform: translate(10%, 5%);
-    -moz-transform: translate(10%, 5%);
-    -o-transform: translate(10%, 5%);
-    -ms-transform: translate(10%, 5%);
-    transform: translate(10%, 5%);
-  }
 }
 @media only screen and (max-width: 56em) {
   .triangle.yellow {
@@ -507,13 +519,6 @@ footer p {
     -ms-transform: translate(205%, -100%);
     transform: translate(205%, -100%);
   }
-  .blue {
-    -webkit-transform: translate(10%, 5%);
-    -moz-transform: translate(10%, 5%);
-    -o-transform: translate(10%, 5%);
-    -ms-transform: translate(10%, 5%);
-    transform: translate(10%, 5%);
-  }
 }
 @media only screen and (max-width: 48em) {
   .triangle.yellow {
@@ -522,19 +527,6 @@ footer p {
     -o-transform: translate(185%, -100%);
     -ms-transform: translate(185%, -100%);
     transform: translate(185%, -100%);
-  }
-  .blue {
-    -webkit-transform: translate(10%, 5%);
-    -moz-transform: translate(10%, 5%);
-    -o-transform: translate(10%, 5%);
-    -ms-transform: translate(10%, 5%);
-    transform: translate(10%, 5%);
-  }
-  #what-copy-container {
-    margin-top: 8%;
-  }
-  #contact-header {
-    padding-top: 10%;
   }
   h2 {
     font-size: 2.2em;
@@ -552,6 +544,9 @@ footer p {
 @media only screen and (max-width: 30em) {
   #container {
     margin: 5% auto 0;
+  }
+  h2 {
+    font-size: 1.9em;
   }
 }
 @media only screen and (max-width: 20em) {
