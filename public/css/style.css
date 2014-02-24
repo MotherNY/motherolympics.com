@@ -261,6 +261,24 @@ footer p {
   color: #fff;
   font-size: 1.2em;
 }
+table {
+  border-collapse: collapse;
+  border-spacing: 0.5rem;
+  text-align: left;
+  width: 100%;
+}
+tr {
+  text-align: left;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: inherit;
+  padding: 2%;
+}
 #container {
   margin: 3% auto 0;
   width: 100%;
@@ -323,6 +341,11 @@ footer p {
   padding-left: 25%;
   font-weight: bold;
   font-size: 1.5em;
+}
+#logo.timetable-header {
+  font-size: 2.5em;
+  overflow: hidden;
+  line-height: 1.8;
 }
 #who-container {
   overflow: auto;
@@ -406,6 +429,17 @@ footer p {
 .nation-tmpl > img {
   float: left;
   padding: 0 5%;
+}
+.timetable-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.timetable-head {
+  color: #fff;
+  background: #35499d;
+  min-height: 60px;
+  text-align: center;
+  padding: 6% 0 0%;
 }
 .nav {
   padding-left: 26%;
