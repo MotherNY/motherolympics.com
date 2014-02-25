@@ -212,6 +212,9 @@ h3 {
   font-size: 1.3333em;
   font-family: Helvetica, Arial, sans-serif;
 }
+h5 {
+  margin: 0;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -319,6 +322,11 @@ td {
   overflow: hidden;
   line-height: 1.8;
 }
+#logo.ov-header {
+  font-size: 2.5em;
+  overflow: hidden;
+  line-height: 1;
+}
 #who-container {
   overflow: auto;
   width: 100%;
@@ -348,6 +356,17 @@ td {
   float: right;
   width: 50%;
   text-align: right;
+}
+.moist-block {
+  background: #35499d;
+  padding: 4% 4%;
+  margin: 0 auto;
+}
+.moist-block p {
+  font-size: 1em;
+}
+.moist-block ul li {
+  font-size: 1em;
 }
 .events-block {
   background: #35499d;
@@ -401,6 +420,12 @@ td {
 .nation-tmpl > img {
   float: left;
   padding: 0 5%;
+}
+.ov-block {
+background
+  text-align: center;
+  padding: 0 4%;
+  margin: 0 auto;
 }
 .timetable-container {
   width: 90%;
