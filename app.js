@@ -49,7 +49,6 @@ app.get('/events/catch-the-flame', events['catch-the-flame']);
 app.get('/events/coaster', events['coaster']);
 app.get('/events/drinks', events['drinks']);
 app.get('/events/ice-dance', events['ice-dance']);
-app.get('/events/ice-dance', events['ice-dance']);
 app.get('/events/puzzle', events['puzzle']);
 app.get('/events/save-nation', events['save-nation']);
 app.get('/events/snowball', events['snowball']);
