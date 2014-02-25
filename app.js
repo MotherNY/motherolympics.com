@@ -10,6 +10,7 @@ var express = require('express')
   , timetable = require('./routes/timetable')
   , ov = require('./routes/olympic-village')
   , moist = require('./routes/moist')
+  , livefeed = require('./routes/livefeed')
   , http = require('http')
   , path = require('path')
   , pack = require(path.resolve(__dirname, './package.json'))
@@ -74,6 +75,9 @@ app.get('/timetable', timetable.index);
 app.get('/olympic-village', ov.index);
 
 app.get('/moist', moist.index);
+
+app.get('/live-feed', livefeed.index);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

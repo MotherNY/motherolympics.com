@@ -357,6 +357,10 @@ td {
   width: 50%;
   text-align: right;
 }
+#instafeed a img {
+  margin: 3.5% auto;
+  border: 1px solid #fff;
+}
 .moist-block {
   background: #35499d;
   padding: 4% 4%;
