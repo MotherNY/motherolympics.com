@@ -20,7 +20,7 @@ var app = express();
 app.set('port', process.env.PORT || 3422);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-app.use(express.favicon());
+app.use(express.favicon(path.join(__dirname, 'public/favicon.ico')));
 app.use(express.compress())
 app.use(express.logger(app.locals.env === 'production' ? 'tiny' : 'dev' ))
 app.use(express.bodyParser());
