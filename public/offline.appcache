@@ -62,9 +62,6 @@ timetable.html
 olympic-village.html
 moist.html
 
-NETWORK:
-*
-
 FALLBACK:
 / /index.html
 /events /events.html
@@ -92,3 +89,6 @@ FALLBACK:
 /timetable /timetable.html
 /olympic-village /olympic-village.html
 /moist /moist.html
+
+NETWORK:
+*
