@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Version: 0.0.5
+# Version: 0.0.6
 # Built: 2014-02-25
 
 CACHE:
@@ -64,3 +64,31 @@ moist.html
 
 NETWORK:
 *
+
+FALLBACK:
+/ /index.html
+/events /events.html
+/events/catch-the-flame /events/catch-the-flame.html
+/events/coaster /events/coaster.html
+/events/drinks /events/drinks.html
+/events/ice-dance /events/ice-dance.html
+/events/puzzle /events/puzzle.html
+/events/save-nation /events/save-nation.html
+/events/snowball /events/snowball.html
+/events/tubing /events/tubing.html
+/nations /nations.html
+/nations/bangladesh /nations/bangladesh.html
+/nations/bolivia /nations/bolivia.html
+/nations/botswana /nations/botswana.html
+/nations/cambodia /nations/cambodia.html
+/nations/chad /nations/chad.html
+/nations/kuwait /nations/kuwait.html
+/nations/kyrgyzstan /nations/kyrgyzstan.html
+/nations/seychelles /nations/seychelles.html
+/nations/senegal /nations/senegal.html
+/nations/st-lucia /nations/st-lucia.html
+/nations/vatican-city /nations/vatican-city.html
+/nations/zambia /nations/zambia.html
+/timetable /timetable.html
+/olympic-village /olympic-village.html
+/moist /moist.html
