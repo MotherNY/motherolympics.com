@@ -89,11 +89,11 @@ f.forEach(function(el,i){
   console.log(name)
   // console.log('wget -O '+name+' '+el)
 
-  // cp.exec('wget -O '+name+' '+el, function(e,stout,stderr){
-  //   if(e) console.error(e)
-  //   if(stout) console.dir(stout)
-  //   if(stderr) console.error(stderr)
-  // })
+  cp.exec('wget -O '+name+' '+el, function(e,stout,stderr){
+    if(e) console.error(e)
+    if(stout) console.dir(stout)
+    if(stderr) console.error(stderr)
+  })
 
 })
 
