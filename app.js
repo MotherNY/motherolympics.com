@@ -8,6 +8,7 @@ var express = require('express')
   , events = require('./routes/events')
   , nations = require('./routes/nations')
   , timetable = require('./routes/timetable')
+  , ov = require('./routes/olympic-village')
   , http = require('http')
   , path = require('path')
   , pack = require(path.resolve(__dirname, './package.json'))
@@ -69,6 +70,8 @@ app.get('/nations/vatican-city', nations['vatican-city']);
 app.get('/nations/zambia', nations['zambia']);
 
 app.get('/timetable', timetable.index);
+
+app.get('/olympic-village', ov.index);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
