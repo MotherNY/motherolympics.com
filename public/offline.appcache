@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Version: 0.0.6
+# Version: 0.0.7
 # Built: 2014-02-25
 
 CACHE:
@@ -37,27 +37,27 @@ CACHE:
 
 index.html
 events.html
-events/catch-the-flame.html
-events/coaster.html
-events/drinks.html
-events/ice-dance.html
-events/puzzle.html
-events/save-nation.html
-events/snowball.html
-events/tubing.html
+/events/catch-the-flame.html
+/events/coaster.html
+/events/drinks.html
+/events/ice-dance.html
+/events/puzzle.html
+/events/save-nation.html
+/events/snowball.html
+/events/tubing.html
 nations.html
-nations/bangladesh.html
-nations/bolivia.html
-nations/botswana.html
-nations/cambodia.html
-nations/chad.html
-nations/kuwait.html
-nations/kyrgyzstan.html
-nations/seychelles.html
-nations/senegal.html
-nations/st-lucia.html
-nations/vatican-city.html
-nations/zambia.html
+/nations/bangladesh.html
+/nations/bolivia.html
+/nations/botswana.html
+/nations/cambodia.html
+/nations/chad.html
+/nations/kuwait.html
+/nations/kyrgyzstan.html
+/nations/seychelles.html
+/nations/senegal.html
+/nations/st-lucia.html
+/nations/vatican-city.html
+/nations/zambia.html
 timetable.html
 olympic-village.html
 moist.html
