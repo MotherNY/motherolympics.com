@@ -14,29 +14,25 @@
     <header role="header" id="header" class="">
 
         <div>
-          <h1 id="logo">LIVE FEED</h1>
+          <h1 id="logo">EVENTS</h1>
         </div>
       
     </header>
 
     <div class="events-block">
-      <div id="instafeed"></div>
+      <a href="/events/catch-the-flame"><img src="/img/catch_the_flame_114x114.png"></a>
+      <a href="/events/coaster"><img src="/img/coaster_114x114.png"></a>
+      <a href="/events/drinks"><img src="/img/drinks_114x114.png"></a>
+      <a href="/events/ice-dance"><img src="/img/ice_dance_114x114.png"></a>
+      <a href="/events/puzzle"><img src="/img/puzzle_114x114.png"></a>
+      <a href="/events/save-nation"><img src="/img/save-nation-114x114.png"></a>
+      <a href="/events/snowball"><img src="/img/snowball_114x114.png"></a>
+      <a href="/events/tubing"><img src="/img/tubing_114x114.png"></a>
     </div>
 
     <%- include footer %>
   </div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="http://markmurray.co/js/instafeed.min.js"></script>
-<script>var instaFeed = new Instafeed({
-              get: 'user',
-              userId: 6678174,
-              accessToken: '6678174.467ede5.205a03ebc4b74d4082823781c3149575',
-              target: 'instafeed',
-              sortBy: 'most-liked',
-              limit: 32,
-              resolution: 'low_resolution'
-}); instaFeed.run();//@ sourceURL=pen.js
-</script>
+<%- include scripts %>
 </body>
 </html>
