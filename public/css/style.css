@@ -1,31 +1,3 @@
-@font-face {
-  font-family: 'Brandon Bold';
-  src: url("/font/web/brandon_bld-webfont.eot");
-  src: url("/font/web/brandon_bld-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_bld-webfont.woff") format('woff'), url("/font/web/brandon_bld-webfont.ttf") format('truetype'), url("/font/web/brandon_bld-webfont.svg#brandon_grotesquebold") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon Light';
-  src: url("/font/web/brandon_light-webfont.eot");
-  src: url("/font/web/brandon_light-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_light-webfont.woff") format('woff'), url("/font/web/brandon_light-webfont.ttf") format('truetype'), url("/font/web/brandon_light-webfont.svg#brandon_grotesquelight") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon Regular';
-  src: url("/font/web/brandon_reg-webfont.eot");
-  src: url("/font/web/brandon_reg-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_reg-webfont.woff") format('woff'), url("/font/web/brandon_reg-webfont.ttf") format('truetype'), url("/font/web/brandon_reg-webfont.svg#brandon_grotesque_regularRg") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon Thin';
-  src: url("/font/web/brandon_thin-webfont.eot");
-  src: url("/font/web/brandon_thin-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_thin-webfont.woff") format('woff'), url("/font/web/brandon_thin-webfont.ttf") format('truetype'), url("/font/web/brandon_thin-webfont.svg#brandon_grotesquethin") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 article,
 aside,
 details,
@@ -205,7 +177,7 @@ body {
 }
 body {
   font-size: 100%;
-  font-family: 'Brandon Bold', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background-color: #1ac1e6;
   color: #fff;
 }
@@ -221,7 +193,7 @@ li {
   font-size: 1.6em;
   margin: 0;
   padding: 0;
-  font-family: 'Brandon Thin', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 h1 {
   font-size: 3em;
@@ -233,12 +205,12 @@ h2 {
   font-size: 2.4em;
   font-weight: 200;
   line-height: 1.1;
-  font-family: 'Brandon Regular', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
 h3 {
   font-size: 1.3333em;
-  font-family: 'Brandon Regular', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 ul {
   list-style-type: none;
@@ -292,7 +264,7 @@ td {
   min-height: 240px;
 }
 #tagline p {
-  font-family: 'Brandon Thin', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 2.8em;
 }
 #what {
@@ -527,69 +499,25 @@ td {
   -moz-opacity: 0.75;
   opacity: 0.75;
 }
-@font-face {
-  font-family: 'Brandon Bold';
-  src: url("/font/web/brandon_bld-webfont.eot");
-  src: url("/font/web/brandon_bld-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_bld-webfont.woff") format('woff'), url("/font/web/brandon_bld-webfont.ttf") format('truetype'), url("/font/web/brandon_bld-webfont.svg#brandon_grotesquebold") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon Light';
-  src: url("/font/web/brandon_light-webfont.eot");
-  src: url("/font/web/brandon_light-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_light-webfont.woff") format('woff'), url("/font/web/brandon_light-webfont.ttf") format('truetype'), url("/font/web/brandon_light-webfont.svg#brandon_grotesquelight") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon Regular';
-  src: url("/font/web/brandon_reg-webfont.eot");
-  src: url("/font/web/brandon_reg-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_reg-webfont.woff") format('woff'), url("/font/web/brandon_reg-webfont.ttf") format('truetype'), url("/font/web/brandon_reg-webfont.svg#brandon_grotesque_regularRg") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandon Thin';
-  src: url("/font/web/brandon_thin-webfont.eot");
-  src: url("/font/web/brandon_thin-webfont.eot?#iefix") format('embedded-opentype'), url("/font/web/brandon_thin-webfont.woff") format('woff'), url("/font/web/brandon_thin-webfont.ttf") format('truetype'), url("/font/web/brandon_thin-webfont.svg#brandon_grotesquethin") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 @media only screen and (max-width: 90em) {
-  .triangle.yellow {
-    -webkit-transform: translate(267%, -100%);
-    -moz-transform: translate(267%, -100%);
-    -o-transform: translate(267%, -100%);
-    -ms-transform: translate(267%, -100%);
-    transform: translate(267%, -100%);
+  h2 {
+    font-size: 2.2em;
+    line-height: 1;
   }
 }
 @media only screen and (max-width: 64em) {
-  .triangle.yellow {
-    -webkit-transform: translate(267%, -100%);
-    -moz-transform: translate(267%, -100%);
-    -o-transform: translate(267%, -100%);
-    -ms-transform: translate(267%, -100%);
-    transform: translate(267%, -100%);
+  h2 {
+    font-size: 2.2em;
+    line-height: 1;
   }
 }
 @media only screen and (max-width: 56em) {
-  .triangle.yellow {
-    -webkit-transform: translate(205%, -100%);
-    -moz-transform: translate(205%, -100%);
-    -o-transform: translate(205%, -100%);
-    -ms-transform: translate(205%, -100%);
-    transform: translate(205%, -100%);
+  h2 {
+    font-size: 2.2em;
+    line-height: 1;
   }
 }
 @media only screen and (max-width: 48em) {
-  .triangle.yellow {
-    -webkit-transform: translate(185%, -100%);
-    -moz-transform: translate(185%, -100%);
-    -o-transform: translate(185%, -100%);
-    -ms-transform: translate(185%, -100%);
-    transform: translate(185%, -100%);
-  }
   h2 {
     font-size: 2.2em;
     line-height: 1;
@@ -599,8 +527,8 @@ td {
   }
 }
 @media only screen and (max-width: 40em) {
-  #who-container {
-    padding-top: 12%;
+  h3 {
+    font-size: 1.1em;
   }
 }
 @media only screen and (max-width: 30em) {
@@ -612,11 +540,7 @@ td {
   }
 }
 @media only screen and (max-width: 20em) {
-  .triangle.yellow {
-    -webkit-transform: translate(10%, -100%) scale(0.5, 0.5);
-    -moz-transform: translate(10%, -100%) scale(0.5, 0.5);
-    -o-transform: translate(10%, -100%) scale(0.5, 0.5);
-    -ms-transform: translate(10%, -100%) scale(0.5, 0.5);
-    transform: translate(10%, -100%) scale(0.5, 0.5);
+  h2 {
+    font-size: 1.6em;
   }
 }
